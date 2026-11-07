@@ -1,0 +1,1430 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nindia Tri Anggraini | Portofolio Web & Mobile Developer</title>
+    <meta name="description" content="Portofolio resmi Nindia Tri Anggraini - Mahasiswa D4 Teknik Informatika Politeknik Negeri Jember (PSDKU Nganjuk), Web & Mobile Developer, UI/UX Designer.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Header / Navbar -->
+    <header id="header">
+        <a href="#main" class="brand" aria-label="Beranda Nindia">
+            <span class="brand-badge">N</span>
+            <span>Nindi<span class="brand-dot">.</span></span>
+        </a>
+        
+        <nav class="navigation" id="site-nav" aria-label="Navigasi utama">
+            <a href="#main" class="active">Beranda</a>
+            <a href="#about">Tentang</a>
+            <a href="#education">Pendidikan</a>
+            <a href="#skills">Keterampilan</a>
+            <a href="#work">Pengalaman</a>
+            <a href="#certificates">Sertifikat</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+
+        <div class="header-actions">
+            <a href="#contact" class="btn-nav">
+                <i class="fas fa-paper-plane"></i> Hubungi
+            </a>
+            <button class="menu-btn" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="site-nav">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+    <div class="nav-overlay"></div>
+
+    <!-- ==================== HERO / BERANDA ==================== -->
+    <section class="main" id="main">
+        <!-- Animasi Burung Terbang di Latar Beranda -->
+        <div class="hero-birds" aria-hidden="true">
+            <div class="bird-flight bird-1">
+                <svg class="bird-svg" viewBox="0 0 54 36">
+                    <path class="bird-wing wing-left" d="M27 18 C20 10 11 5 0 9 C8 15 17 19 27 19 Z"/>
+                    <path class="bird-wing wing-right" d="M27 18 C34 10 43 5 54 9 C46 15 37 19 27 19 Z"/>
+                    <path class="bird-body" d="M25 17 C25 15 29 15 29 17 L28 27 C28 28 26 28 26 27 Z"/>
+                </svg>
+            </div>
+            <div class="bird-flight bird-2">
+                <svg class="bird-svg" viewBox="0 0 54 36">
+                    <path class="bird-wing wing-left" d="M27 18 C20 10 11 5 0 9 C8 15 17 19 27 19 Z"/>
+                    <path class="bird-wing wing-right" d="M27 18 C34 10 43 5 54 9 C46 15 37 19 27 19 Z"/>
+                    <path class="bird-body" d="M25 17 C25 15 29 15 29 17 L28 27 C28 28 26 28 26 27 Z"/>
+                </svg>
+            </div>
+            <div class="bird-flight bird-3">
+                <svg class="bird-svg" viewBox="0 0 54 36">
+                    <path class="bird-wing wing-left" d="M27 18 C20 10 11 5 0 9 C8 15 17 19 27 19 Z"/>
+                    <path class="bird-wing wing-right" d="M27 18 C34 10 43 5 54 9 C46 15 37 19 27 19 Z"/>
+                    <path class="bird-body" d="M25 17 C25 15 29 15 29 17 L28 27 C28 28 26 28 26 27 Z"/>
+                </svg>
+            </div>
+            <div class="bird-flight bird-4">
+                <svg class="bird-svg" viewBox="0 0 54 36">
+                    <path class="bird-wing wing-left" d="M27 18 C20 10 11 5 0 9 C8 15 17 19 27 19 Z"/>
+                    <path class="bird-wing wing-right" d="M27 18 C34 10 43 5 54 9 C46 15 37 19 27 19 Z"/>
+                    <path class="bird-body" d="M25 17 C25 15 29 15 29 17 L28 27 C28 28 26 28 26 27 Z"/>
+                </svg>
+            </div>
+        </div>
+
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-status" data-aos="fade-down" data-aos-duration="800">
+                    <span class="pulse-dot"></span>
+                    <span>D4 Teknik Informatika · Polije PSDKU Nganjuk</span>
+                </div>
+
+                <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    Halo, Saya <br>
+                    <span class="name">Nindia Tri Anggraini</span>
+                </h1>
+
+                <div class="hero-roles" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <span class="role-pill"><i class="fas fa-code"></i> Web Developer</span>
+                    <span class="role-pill"><i class="fas fa-mobile-screen"></i> Mobile Developer</span>
+                    <span class="role-pill"><i class="fas fa-pen-nib"></i> UI/UX Designer</span>
+                </div>
+
+                <p class="hero-desc" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    Berfokus dalam pengembangan aplikasi web dan mobile yang modern, responsif, dan mudah digunakan. Mengintegrasikan logika pemrograman yang kokoh dengan estetika antarmuka intuitif.
+                </p>
+
+                <div class="hero-actions" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <a href="#work" class="btn btn-primary">
+                        <i class="fas fa-briefcase"></i> Lihat Proyek Saya
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Hubungi Saya
+                    </a>
+                </div>
+
+                <div class="social-links" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                    <a href="https://wa.me/6281285357667" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/nindia-tri-anggraini/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:nindiatri87@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://maps.google.com/?q=Nganjuk,+Jawa+Timur" target="_blank" rel="noopener" aria-label="Lokasi"><i class="fas fa-map-marker-alt"></i></a>
+                </div>
+
+                <div class="hero-stats" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                    <div class="stat-item">
+                        <h3>5<span>+</span></h3>
+                        <p>Proyek Selesai</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>3<span>+</span></h3>
+                        <p>Penghargaan Lomba</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>6<span>+</span></h3>
+                        <p>Sertifikat Resmi</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Profile Card -->
+            <div class="hero-visual" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200">
+                <div class="hero-card">
+                    <!-- Floating Decorative Badges -->
+                    <div class="floating-badge badge-top-left">
+                        <div class="badge-icon"><i class="fas fa-laptop-code"></i></div>
+                        <div>
+                            <strong>Full Stack</strong>
+                            <span>Web & Mobile</span>
+                        </div>
+                    </div>
+                    <div class="floating-badge badge-bottom-right">
+                        <div class="badge-icon"><i class="fas fa-award"></i></div>
+                        <div>
+                            <strong>Prestasi</strong>
+                            <span>Juara Kompetisi</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-avatar-wrap">
+                        <img src="assets/tentang.jpeg" alt="Nindia Tri Anggraini">
+                    </div>
+                    <div class="hero-card-meta">
+                        <h4>Nindia Tri Anggraini</h4>
+                        <p>Teknik Informatika · Politeknik Negeri Jember</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== TENTANG ==================== -->
+    <section class="about" id="about">
+        <div class="section-header" data-aos="fade-up" data-aos-duration="800">
+            <span class="section-tag"><i class="fas fa-user"></i> Tentang Saya</span>
+            <h2 class="section-title">Mengenal Lebih Dekat Perjalanan & Dedikasi Saya</h2>
+            <p class="section-subtitle">Kombinasi latar belakang teknis informatika dan pengalaman praktis manajemen data.</p>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-img-box" data-aos="fade-right" data-aos-duration="1000">
+                <div class="inner-img">
+                    <img src="assets/tentang.jpeg" alt="Foto Profil Nindia Tri Anggraini">
+                </div>
+                <div class="about-floating-tag">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div>
+                        <span>Status Saat Ini</span>
+                        <strong>Mahasiswa D4 TI PSDKU Nganjuk</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-text" data-aos="fade-left" data-aos-duration="1000">
+                <h3>Membangun Solusi Digital dengan Ketelitian, Inovasi, dan Desain yang Bersih</h3>
+                <p>
+                    Saya merupakan mahasiswa Program Studi <strong>D4 Teknik Informatika</strong>, Jurusan Teknologi Informasi, <strong>Politeknik Negeri Jember (PSDKU Nganjuk)</strong>. Memiliki minat dan keahlian mendalam dalam mengembangkan aplikasi web dan mobile, pengujian perangkat lunak (SQA), serta perancangan antarmuka berbasis kaidah UI/UX yang ramah pengguna.
+                </p>
+                <p>
+                    Selain keahlian coding, saya memiliki pengalaman <strong>Praktik Kerja Lapangan (PKL) selama 6 bulan sebagai Accounting Intern di PT Natamas Plast</strong>. Pengalaman ini membentuk saya menjadi pribadi yang sangat teliti dalam manajemen data, terstruktur dalam dokumentasi, serta paham bagaimana sistem informasi dapat mengoptimalkan proses bisnis nyata.
+                </p>
+
+                <div class="about-features">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-code-branch"></i></div>
+                        <div class="feature-info">
+                            <h4>Web & Mobile Engineering</h4>
+                            <p>Membangun aplikasi terstruktur menggunakan Laravel, Flutter, MySQL, dan REST API.</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-layer-group"></i></div>
+                        <div class="feature-info">
+                            <h4>UI/UX & Design Thinking</h4>
+                            <p>Merancang alur pengguna, wireframe, dan prototipe interaktif menggunakan Figma.</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-clipboard-check"></i></div>
+                        <div class="feature-info">
+                            <h4>Quality Assurance & Dokumentasi</h4>
+                            <p>Pengujian fungsional sistem, penyusunan test case, serta administrasi data yang rapi.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://drive.google.com/file/d/YOUR_GOOGLE_DRIVE_CV_ID/view?usp=sharing" target="_blank" rel="noopener" class="btn btn-primary" title="Buka CV di Google Drive">
+                    <i class="fas fa-file-pdf"></i> Lihat CV Saya (PDF)
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PENDIDIKAN ==================== -->
+    <section class="education" id="education">
+        <div class="section-header" data-aos="fade-up" data-aos-duration="800">
+            <span class="section-tag"><i class="fas fa-graduation-cap"></i> Riwayat Pendidikan</span>
+            <h2 class="section-title">Latar Belakang Akademis</h2>
+            <p class="section-subtitle">Fondasi teori dan praktik rekayasa perangkat lunak yang telah saya tempuh.</p>
+        </div>
+
+        <div class="timeline">
+            <!-- Pendidikan 1 -->
+            <div class="timeline-item" data-aos="fade-up" data-aos-duration="900" data-aos-delay="100">
+                <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="timeline-body">
+                    <div class="timeline-header">
+                        <h3>D4 Teknik Informatika</h3>
+                        <span class="timeline-date"><i class="fas fa-calendar-alt"></i> 2025 - 2029</span>
+                    </div>
+                    <h4>Politeknik Negeri Jember – Kampus PSDKU Nganjuk</h4>
+                    <p>Fokus mendalam pada pengembangan sistem komprehensif, arsitektur perangkat lunak modern, pengembangan web dan mobile, serta tata kelola proyek teknologi informasi.</p>
+                    <div class="timeline-tags">
+                        <span class="timeline-tag">Pemrograman Web</span>
+                        <span class="timeline-tag">PBO</span>
+                        <span class="timeline-tag">Pengembangan Mobile</span>
+                        <span class="timeline-tag">Basis Data</span>
+                        <span class="timeline-tag">Software QA</span>
+                        <span class="timeline-tag">Interaksi Manusia & Komputer</span>
+                        <span class="timeline-tag">Manajemen Proyek TI</span>
+                        <span class="timeline-tag">Web Server</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pendidikan 2 -->
+            <div class="timeline-item" data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">
+                <div class="timeline-icon"><i class="fas fa-school"></i></div>
+                <div class="timeline-body">
+                    <div class="timeline-header">
+                        <h3>Rekayasa Perangkat Lunak (RPL)</h3>
+                        <span class="timeline-date"><i class="fas fa-calendar-alt"></i> 2022 - 2025</span>
+                    </div>
+                    <h4>SMK Negeri 1 Gunung Putri, Bogor</h4>
+                    <p>Mempelajari dasar-dasar algoritma, logika pemrograman berorientasi objek, perancangan database, desain grafis, hingga pengembangan aplikasi berbasis web dan game edukasi.</p>
+                    <div class="timeline-tags">
+                        <span class="timeline-tag">Pemrograman Dasar</span>
+                        <span class="timeline-tag">Pemrograman Web & Bergerak</span>
+                        <span class="timeline-tag">Basis Data MySQL</span>
+                        <span class="timeline-tag">Pemodelan Perangkat Lunak</span>
+                        <span class="timeline-tag">Dasar Desain Grafis</span>
+                        <span class="timeline-tag">Pengembangan Game</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== KETERAMPILAN ==================== -->
+    <section class="skills" id="skills">
+        <div class="section-header" data-aos="fade-up" data-aos-duration="800">
+            <span class="section-tag"><i class="fas fa-code"></i> Keahlian Teknis</span>
+            <h2 class="section-title">Teknologi & Instrumen yang Dikuasai</h2>
+            <p class="section-subtitle">Rangkaian alat, bahasa pemrograman, dan framework yang saya gunakan untuk mewujudkan solusi.</p>
+        </div>
+
+        <div class="skills-container">
+            <!-- Kategori 1: Web Development -->
+            <div class="skill-category-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="100">
+                <div class="category-header">
+                    <div class="category-icon"><i class="fas fa-globe"></i></div>
+                    <h3>Web Development</h3>
+                </div>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fab fa-html5" style="color: #e44d26;"></i> HTML5 & CSS3</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress-fill" style="width: 85%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fab fa-js" style="color: #f7df1e;"></i> JavaScript (ES6+)</span>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress-fill" style="width: 70%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fab fa-laravel" style="color: #ff2d20;"></i> PHP & Laravel</span>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress-fill" style="width: 75%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fas fa-database" style="color: #00758f;"></i> MySQL & Database</span>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress-fill" style="width: 75%;"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kategori 2: Mobile & Backend -->
+            <div class="skill-category-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">
+                <div class="category-header">
+                    <div class="category-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Mobile & Application</h3>
+                </div>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fas fa-dove" style="color: #54c5f8;"></i> Flutter & Dart</span>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress-fill" style="width: 70%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fas fa-network-wired" style="color: #38bdf8;"></i> RESTful API Integration</span>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress-fill" style="width: 75%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fas fa-qrcode" style="color: #10b981;"></i> QRIS Payment Integration</span>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress-fill" style="width: 70%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fas fa-gamepad" style="color: #a855f7;"></i> Game Development</span>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress-fill" style="width: 70%;"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kategori 3: Design & Workflow -->
+            <div class="skill-category-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="300">
+                <div class="category-header">
+                    <div class="category-icon"><i class="fas fa-palette"></i></div>
+                    <h3>Design & Workflow</h3>
+                </div>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fab fa-figma" style="color: #f24e1e;"></i> Figma & UI/UX Wireframing</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress-fill" style="width: 80%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fab fa-git-alt" style="color: #f05032;"></i> Git & GitHub</span>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress-fill" style="width: 75%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fas fa-vial" style="color: #3b82f6;"></i> SQA & Software Testing</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress-fill" style="width: 80%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fas fa-file-invoice-dollar" style="color: #10b981;"></i> Administrasi & Akuntansi</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress-fill" style="width: 85%;"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PENGALAMAN & PROYEK ==================== -->
+    <section class="work" id="work">
+        <div class="section-header" data-aos="fade-up" data-aos-duration="800">
+            <span class="section-tag"><i class="fas fa-laptop-code"></i> Portofolio Karya</span>
+            <h2 class="section-title">Proyek yang Pernah Saya Kembangkan</h2>
+            <p class="section-subtitle">Solusi digital yang telah saya bangun, mulai dari aplikasi sekolah, UMKM, hingga sistem pemesanan.</p>
+        </div>
+
+        <div class="work-grid">
+            <!-- Proyek 1: LOTUS -->
+            <div class="project-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="100">
+                <div class="project-img-box" onclick="openProjectModal('lotus')" style="cursor: pointer;">
+                    <img src="assets/logo2.png" alt="Aplikasi LOTUS SMPN 1 Loceret">
+                    <div class="project-coming-soon-badge">
+                        <span class="cs-dot"></span>
+                        <i class="fas fa-clock"></i>
+                        <span>Coming Soon</span>
+                    </div>
+                    <div class="project-overlay">
+                        <button class="project-zoom-btn" type="button" title="Buka Detail & Dokumentasi" onclick="event.stopPropagation(); openProjectModal('lotus')">
+                            <i class="fas fa-folder-open"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="tag-badge tag-coming-soon"><i class="fas fa-clock"></i> Coming Soon</span>
+                        <span class="tag-badge">Flutter</span>
+                        <span class="tag-badge">Mobile App</span>
+                        <span class="tag-badge">Admin Panel</span>
+                        <span class="tag-badge">Sekolah</span>
+                    </div>
+                    <h3 class="project-title">LOTUS</h3>
+                    <h3>Aplikasi Internal SMPN 1 Loceret</h3>
+                    <p class="project-desc">Aplikasi mobile administrasi sekolah untuk guru dan staf admin: digitalisasi arsip surat, pengajuan izin, rekap nilai, presensi harian, dan jadwal piket terpadu.</p>
+                    <div class="project-meta">
+                        <i class="fas fa-user-tag"></i> Web & Mobile Developer · 2026
+                    </div>
+
+                    <!-- Strip Dokumentasi -->
+                    <div class="project-doc-strip" onclick="openProjectModal('lotus')">
+                        <span class="doc-strip-label"><i class="fas fa-camera"></i> Dokumentasi:</span>
+                        <div class="doc-strip-thumbs">
+                            <img src="assets/Lotus1.jpeg" alt="Lotus 1">
+                            <img src="assets/Lotus2.jpeg" alt="Lotus 2">
+                            <img src="assets/Lotus3.jpeg" alt="Lotus 3">
+                            <span class="doc-strip-more">+3</span>
+                        </div>
+                    </div>
+
+                    <div class="project-actions">
+                        <button type="button" class="btn-card btn-card-detail" onclick="openProjectModal('lotus')">
+                            <i class="fas fa-assetss"></i> Detail & Dokumentasi
+                        </button>
+                        <a href="https://pameran-jti.polije.ac.id/product/ID-LOTUS/nama-produk" target="_blank" rel="noopener" class="btn-card btn-card-primary">
+                            <i class="fas fa-external-link-alt"></i> Pameran JTI
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proyek 2: Dechabooth -->
+            <div class="project-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">
+                <div class="project-img-box" onclick="openProjectModal('dechabooth')" style="cursor: pointer;">
+                    <img src="assets/logo1.png" alt="Dechabooth Platform Pemesanan">
+                    <div class="project-overlay">
+                        <button class="project-zoom-btn" type="button" title="Buka Detail & Dokumentasi" onclick="event.stopPropagation(); openProjectModal('dechabooth')">
+                            <i class="fas fa-folder-open"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="tag-badge">Flutter</span>
+                        <span class="tag-badge">QRIS Payment</span>
+                        <span class="tag-badge">Real-Time</span>
+                        <span class="tag-badge">F&B</span>
+                    </div>
+                    <h3 class="project-title">Dechabooth</h3> 
+                    <h3> Platform Pemesanan Mobile</h3>
+                    <p class="project-desc">Platform pemesanan makanan cepat saji secara mobile terintegrasi metode pembayaran digital QRIS dan dashboard manajemen menu interaktif untuk administrator.</p>
+                    <div class="project-meta">
+                        <i class="fas fa-user-tag"></i> Mobile Developer · 2026
+                    </div>
+
+                    <!-- Strip Dokumentasi -->
+                    <div class="project-doc-strip" onclick="openProjectModal('dechabooth')">
+                        <span class="doc-strip-label"><i class="fas fa-camera"></i> Dokumentasi:</span>
+                        <div class="doc-strip-thumbs">
+                            <img src="assets/Dechabooth 1.jpeg" alt="Dechabooth 1">
+                            <img src="assets/Dechabooth 2.jpeg" alt="Dechabooth 2">
+                        </div>
+                    </div>
+
+                    <div class="project-actions">
+                        <button type="button" class="btn-card btn-card-detail" onclick="openProjectModal('dechabooth')">
+                            <i class="fas fa-assetss"></i> Detail & Dokumentasi
+                        </button>
+                        <a href="https://pameran-jti.polije.ac.id/product/623/dechabooth-aplication" target="_blank" rel="noopener" class="btn-card btn-card-primary">
+                            <i class="fas fa-external-link-alt"></i> Pameran JTI
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proyek 3: Dapur Kuliner Pak Ndut -->
+            <div class="project-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="300">
+                <div class="project-img-box" onclick="openProjectModal('dapur-pak-ndut')" style="cursor: pointer;">
+                    <img src="assets/logo3.png" alt="Website Dapur Kuliner Pak Ndut">
+                    <div class="project-overlay">
+                        <button class="project-zoom-btn" type="button" title="Buka Detail & Dokumentasi" onclick="event.stopPropagation(); openProjectModal('dapur-pak-ndut')">
+                            <i class="fas fa-folder-open"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="tag-badge">Web UMKM</span>
+                        <span class="tag-badge">E-Commerce</span>
+                        <span class="tag-badge">Order Tracking</span>
+                        <span class="tag-badge">Cart System</span>
+                    </div>
+                    <h3 class="project-title">Website Dapur Kuliner Pak Ndut</h3>
+                    <p class="project-desc">Website katalog dan pemesanan UMKM kuliner dengan fitur keranjang belanja dinamis, pelacakan status pesanan pelanggan, serta dashboard manajemen produk dan laporan.</p>
+                    <div class="project-meta">
+                        <i class="fas fa-user-tag"></i> Web Developer · 2025 - 2026
+                    </div>
+
+                    <!-- Strip Dokumentasi -->
+                    <div class="project-doc-strip" onclick="openProjectModal('dapur-pak-ndut')">
+                        <span class="doc-strip-label"><i class="fas fa-camera"></i> Dokumentasi:</span>
+                        <div class="doc-strip-thumbs">
+                            <img src="assets/Dapur Kuliner Pak Ndut 1.jpeg" alt="Pak Ndut 1">
+                            <img src="assets/Dapur Kuliner Pak Ndut 2.jpeg" alt="Pak Ndut 2">
+                            <img src="assets/Dapur Kuliner Pak Ndut 3.jpeg" alt="Pak Ndut 3">
+                            <span class="doc-strip-more">+3</span>
+                        </div>
+                    </div>
+
+                    <div class="project-actions">
+                        <button type="button" class="btn-card btn-card-detail" onclick="openProjectModal('dapur-pak-ndut')">
+                            <i class="fas fa-assetss"></i> Detail & Dokumentasi
+                        </button>
+                        <a href="https://pameran-jti.polije.ac.id/product/411/dapur-kuliner-pak-ndut" target="_blank" rel="noopener" class="btn-card btn-card-primary">
+                            <i class="fas fa-external-link-alt"></i> Pameran JTI
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proyek 4: Perpustakaan Digital -->
+            <div class="project-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="100">
+                <div class="project-img-box" onclick="openProjectModal('perpustakaan')" style="cursor: pointer;">
+                    <img src="assets/perpus.png" alt="Aplikasi Perpustakaan Digital">
+                    <div class="project-overlay">
+                        <button class="project-zoom-btn" type="button" title="Buka Detail & Dokumentasi" onclick="event.stopPropagation(); openProjectModal('perpustakaan')">
+                            <i class="fas fa-folder-open"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="tag-badge">PHP OOP</span>
+                        <span class="tag-badge">Multi-Role</span>
+                        <span class="tag-badge">UKK RPL</span>
+                        <span class="tag-badge">MySQL</span>
+                    </div>
+                    <h3 class="project-title">Aplikasi Perpustakaan Digital</h3>
+                    <p class="project-desc">Sistem manajemen sirkulasi perpustakaan berbasis web dengan arsitektur Pemrograman Berorientasi Objek (OOP) serta 3 hak akses: Administrator, Petugas, dan Peminjam.</p>
+                    <div class="project-meta">
+                        <i class="fas fa-user-tag"></i> Web Developer · UKK RPL 2025
+                    </div>
+
+                    <!-- Strip Dokumentasi -->
+                    <div class="project-doc-strip" onclick="openProjectModal('perpustakaan')">
+                        <span class="doc-strip-label"><i class="fas fa-camera"></i> Dokumentasi:</span>
+                        <div class="doc-strip-thumbs">
+                            <img src="assets/ukk 1.jpeg" alt="UKK 1">
+                            <img src="assets/ukk 2.jpeg" alt="UKK 2">
+                            <img src="assets/ukk 3.jpeg" alt="UKK 3">
+                        </div>
+                    </div>
+
+                    <div class="project-actions">
+                        <button type="button" class="btn-card btn-card-detail" onclick="openProjectModal('perpustakaan')">
+                            <i class="fas fa-assetss"></i> Detail & Dokumentasi
+                        </button>
+                        <button type="button" class="btn-card btn-card-primary" onclick="openLightbox('assets/perpus.png', 'Aplikasi Perpustakaan Digital Berbasis Web')">
+                            <i class="fas fa-eye"></i> Pratinjau
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proyek 5: Game Environmental Hygiene -->
+            <div class="project-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">
+                <div class="project-img-box" onclick="openProjectModal('gim')" style="cursor: pointer;">
+                    <img src="assets/gim.png" alt="Game Environmental Hygiene">
+                    <div class="project-overlay">
+                        <button class="project-zoom-btn" type="button" title="Buka Detail & Dokumentasi" onclick="event.stopPropagation(); openProjectModal('gim')">
+                            <i class="fas fa-folder-open"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="tag-badge">Game Dev</span>
+                        <span class="tag-badge">Design Thinking</span>
+                        <span class="tag-badge">Edukasi</span>
+                        <span class="tag-badge">Clevio</span>
+                    </div>
+                    <h3 class="project-title">Environmental Hygiene Game</h3>
+                    <p class="project-desc">Game edukasi interaktif tentang pemilahan sampah dan konservasi lingkungan, dirancang secara bertahap melalui metodologi Design Thinking untuk menumbuhkan kepedulian ekologis.</p>
+                    <div class="project-meta">
+                        <i class="fas fa-user-tag"></i> Game Developer · Clevio Coder Camp · 2023
+                    </div>
+
+                    <!-- Strip Dokumentasi -->
+                    <div class="project-doc-strip" onclick="openProjectModal('gim')">
+                        <span class="doc-strip-label"><i class="fas fa-camera"></i> Dokumentasi:</span>
+                        <div class="doc-strip-thumbs">
+                            <img src="assets/GIM 0.jpeg" alt="GIM 0">
+                            <img src="assets/GIM 1.jpeg" alt="GIM 1">
+                            <img src="assets/GIM 2.jpeg" alt="GIM 2">
+                            <span class="doc-strip-more">+5</span>
+                        </div>
+                    </div>
+
+                    <div class="project-actions">
+                        <button type="button" class="btn-card btn-card-detail" onclick="openProjectModal('gim')">
+                            <i class="fas fa-assetss"></i> Detail & Dokumentasi
+                        </button>
+                        <button type="button" class="btn-card btn-card-primary" onclick="openLightbox('assets/gim.png', 'Game Edukasi Environmental Hygiene')">
+                            <i class="fas fa-eye"></i> Pratinjau
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SERTIFIKAT & PENGHARGAAN ==================== -->
+    <section class="services" id="certificates">
+        <div class="section-header" data-aos="fade-up" data-aos-duration="800">
+            <span class="section-tag"><i class="fas fa-award"></i> Pengakuan & Prestasi</span>
+            <h2 class="section-title">Sertifikasi & Penghargaan Resmi</h2>
+            <p class="section-subtitle">Bukti validasi kompetensi keahlian dan pencapaian kejuaraan yang telah saya raih.</p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs" data-aos="fade-up" data-aos-duration="800">
+            <button class="filter-btn active" data-filter="all">Semua Prestasi</button>
+            <button class="filter-btn" data-filter="awards">🏆 Penghargaan Lomba</button>
+            <button class="filter-btn" data-filter="certs">📜 Sertifikat Kompetensi</button>
+        </div>
+
+        <div class="certs-grid">
+            <!-- 1. Juara 2 Video (Agustus 2026) -->
+            <div class="cert-card" data-category="awards" data-aos="fade-up" data-aos-duration="800">
+                <div class="cert-img-box" onclick="openLightbox('assets/Juara 2 Vid.jpg', 'Juara 2 Lomba Videography EPIM-TI')">
+                    <img src="assets/Juara 2 Vid.jpg" alt="Sertifikat Juara 2 Lomba Videography">
+                    <div class="cert-zoom-overlay">
+                        <span><i class="fas fa-search-plus"></i> Klik untuk Perbesar</span>
+                    </div>
+                </div>
+                <div class="cert-info">
+                    <span class="cert-badge badge-silver"><i class="fas fa-medal"></i> Juara 2</span>
+                    <h3>Juara 2 Lomba Videography</h3>
+                    <p>EPIM-TI, Jurusan Teknologi Informasi, Politeknik Negeri Jember · Agustus 2026</p>
+                </div>
+            </div>
+
+            <!-- 2. Juara 3 Poster (Juni 2026) -->
+            <div class="cert-card" data-category="awards" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                <div class="cert-img-box" onclick="openLightbox('assets/Juara 3 Poste.jpg', 'Juara 3 Lomba Poster Dechabooth')">
+                    <img src="assets/Juara 3 Poste.jpg" alt="Sertifikat Juara 3 Lomba Poster Dechabooth">
+                    <div class="cert-zoom-overlay">
+                        <span><i class="fas fa-search-plus"></i> Klik untuk Perbesar</span>
+                    </div>
+                </div>
+                <div class="cert-info">
+                    <span class="cert-badge badge-bronze"><i class="fas fa-award"></i> Juara 3</span>
+                    <h3>Juara 3 Lomba Poster Dechabooth</h3>
+                    <p>Java Tech Exhibition 4.0, Politeknik Negeri Jember · Juni 2026</p>
+                </div>
+            </div>
+
+            <!-- 3. Juara 1 Poster (Februari 2026) -->
+            <div class="cert-card" data-category="awards" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                <div class="cert-img-box" onclick="openLightbox('assets/Juara 1 Poster.jpg', 'Juara 1 Lomba Poster Dapur Kuliner Pak Ndut')">
+                    <img src="assets/Juara 1 Poster.jpg" alt="Sertifikat Juara 1 Lomba Poster Dapur Kuliner Pak Ndut">
+                    <div class="cert-zoom-overlay">
+                        <span><i class="fas fa-search-plus"></i> Klik untuk Perbesar</span>
+                    </div>
+                </div>
+                <div class="cert-info">
+                    <span class="cert-badge badge-gold"><i class="fas fa-trophy"></i> Juara 1</span>
+                    <h3>Juara 1 Lomba Poster Dapur Kuliner Pak Ndut</h3>
+                    <p>Java Tech Exhibition 3.0, Jurusan Teknologi Informasi, Politeknik Negeri Jember · Februari 2026</p>
+                </div>
+            </div>
+
+            <!-- 4. LKMM Polije (Oktober 2025) -->
+            <div class="cert-card" data-category="certs" data-aos="fade-up" data-aos-duration="800">
+                <div class="cert-img-box" onclick="openLightbox('assets/sertiv_lkmm.jpg', 'Sertifikat Latihan Keterampilan Manajemen Mahasiswa (LKMM)')">
+                    <img src="assets/sertiv_lkmm.jpg" alt="Sertifikat Latihan Keterampilan Manajemen Mahasiswa">
+                    <div class="cert-zoom-overlay">
+                        <span><i class="fas fa-search-plus"></i> Klik untuk Perbesar</span>
+                    </div>
+                </div>
+                <div class="cert-info">
+                    <span class="cert-badge badge-official"><i class="fas fa-users-cog"></i> Pelatihan Manajemen</span>
+                    <h3>Latihan Keterampilan Manajemen Mahasiswa (LKMM)</h3>
+                    <p>HMJ Teknologi Informasi, Politeknik Negeri Jember · Oktober 2025</p>
+                </div>
+            </div>
+
+            <!-- 5. BNSP Junior Coder (April 2025) -->
+            <div class="cert-card" data-category="certs" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                <div class="cert-img-box" onclick="openLightbox('assets/sertiv_bnsp.jpg', 'Sertifikat Kompetensi Pemrogram Junior BNSP')">
+                    <img src="assets/sertiv_bnsp.jpg" alt="Sertifikat Kompetensi Pemrogram Junior (Junior Coder) BNSP">
+                    <div class="cert-zoom-overlay">
+                        <span><i class="fas fa-search-plus"></i> Klik untuk Perbesar</span>
+                    </div>
+                </div>
+                <div class="cert-info">
+                    <span class="cert-badge badge-official"><i class="fas fa-certificate"></i> BNSP Resmi</span>
+                    <h3>Kompetensi Pemrogram Junior (Junior Coder)</h3>
+                    <p>Badan Nasional Sertifikasi Profesi (BNSP) | LSP SMKN 1 Cibinong · April 2025</p>
+                </div>
+            </div>
+
+            <!-- 6. UKK RPL (April 2025) -->
+            <div class="cert-card" data-category="certs" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                <div class="cert-img-box" onclick="openLightbox('assets/sertiv_ukk.jpg', 'Sertifikat Uji Kompetensi Keahlian RPL')">
+                    <img src="assets/sertiv_ukk.jpg" alt="Sertifikat Uji Kompetensi Keahlian Rekayasa Perangkat Lunak">
+                    <div class="cert-zoom-overlay">
+                        <span><i class="fas fa-search-plus"></i> Klik untuk Perbesar</span>
+                    </div>
+                </div>
+                <div class="cert-info">
+                    <span class="cert-badge badge-official"><i class="fas fa-check-circle"></i> Predikat Kompeten</span>
+                    <h3>Uji Kompetensi Keahlian RPL, Predikat Kompeten</h3>
+                    <p>SMKN 1 Gunungputri | LSP P1 SMKN 1 Cibinong · April 2025</p>
+                </div>
+            </div>
+
+            <!-- 7. PKL Nilai 91 (Januari 2025) -->
+            <div class="cert-card" data-category="certs" data-aos="fade-up" data-aos-duration="800">
+                <div class="cert-img-box" onclick="openLightbox('assets/sertiv_pkl1.jpg', 'Sertifikat Praktik Kerja Lapangan Nilai 91')">
+                    <img src="assets/sertiv_pkl1.jpg" alt="Sertifikat Praktik Kerja Lapangan Nilai 91">
+                    <div class="cert-zoom-overlay">
+                        <span><i class="fas fa-search-plus"></i> Klik untuk Perbesar</span>
+                    </div>
+                </div>
+                <div class="cert-info">
+                    <span class="cert-badge badge-official"><i class="fas fa-star"></i> Nilai 91 (Sangat Baik)</span>
+                    <h3>Praktik Kerja Lapangan, Nilai 91</h3>
+                    <p>Accounting Intern di PT Natamas Plast | SMKN 1 Gunungputri · Januari 2025</p>
+                </div>
+            </div>
+
+            <!-- 8. PKL Predikat Baik (Januari 2025) -->
+            <div class="cert-card" data-category="certs" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                <div class="cert-img-box" onclick="openLightbox('assets/sertiv_pkl.jpg', 'Sertifikat PKL PT Natamas Plast Predikat Baik')">
+                    <img src="assets/sertiv_pkl.jpg" alt="Sertifikat Praktik Kerja Lapangan Predikat Baik">
+                    <div class="cert-zoom-overlay">
+                        <span><i class="fas fa-search-plus"></i> Klik untuk Perbesar</span>
+                    </div>
+                </div>
+                <div class="cert-info">
+                    <span class="cert-badge badge-official"><i class="fas fa-briefcase"></i> Pengalaman Industri</span>
+                    <h3>Praktik Kerja Lapangan, Predikat Baik</h3>
+                    <p>PT Natamas Plast, Bogor | Periode Juli 2024 – Januari 2025 (6 Bulan)</p>
+                </div>
+            </div>
+
+            <!-- 9. Game Dev Clevio (Juni 2023) -->
+            <div class="cert-card" data-category="certs" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                <div class="cert-img-box" onclick="openLightbox('assets/sertiv_gim.jpg', 'Certificate of Completion Game Development Training')">
+                    <img src="assets/sertiv_gim.jpg" alt="Certificate of Completion Game Development Training">
+                    <div class="cert-zoom-overlay">
+                        <span><i class="fas fa-search-plus"></i> Klik untuk Perbesar</span>
+                    </div>
+                </div>
+                <div class="cert-info">
+                    <span class="cert-badge badge-official"><i class="fas fa-gamepad"></i> Pelatihan Khusus</span>
+                    <h3>Certificate of Completion, Game Development Training</h3>
+                    <p>Clevio Coder Camp | SMK Negeri 1 Gunung Putri · Juni 2023</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== KONTAK ==================== -->
+    <section class="contact" id="contact">
+        <div class="section-header" data-aos="fade-up" data-aos-duration="800">
+            <span class="section-tag"><i class="fas fa-envelope-open-text"></i> Hubungi Saya</span>
+            <h2 class="section-title">Mari Terhubung & Berkolaborasi</h2>
+            <p class="section-subtitle">Terbuka untuk diskusi proyek web & mobile, peluang magang, maupun kerja sama profesional.</p>
+        </div>
+
+        <div class="contact-container">
+            <!-- Left: Direct Contact Information -->
+            <div class="contact-cards" data-aos="fade-right" data-aos-duration="900">
+                <a class="contact-card-item" href="https://maps.google.com/?q=Nganjuk,+Jawa+Timur" target="_blank" rel="noopener">
+                    <div class="contact-card-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="contact-card-text">
+                        <span>Domisili / Lokasi</span>
+                        <h4>Nganjuk, Jawa Timur, Indonesia</h4>
+                    </div>
+                </a>
+
+                <a class="contact-card-item" href="https://wa.me/6281285357667?text=Halo%20Nindia,%20saya%20melihat%20portofolio%20Anda%20dan%20tertarik%20untuk%20berdiskusi." target="_blank" rel="noopener">
+                    <div class="contact-card-icon"><i class="fab fa-whatsapp"></i></div>
+                    <div class="contact-card-text">
+                        <span>WhatsApp Langsung</span>
+                        <h4>+62 812-8535-7667</h4>
+                    </div>
+                </a>
+
+                <a class="contact-card-item" href="mailto:nindiatri87@gmail.com?subject=Pertanyaan%20dari%20Portofolio%20Web">
+                    <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+                    <div class="contact-card-text">
+                        <span>Surel / Email</span>
+                        <h4>nindiatri87@gmail.com</h4>
+                    </div>
+                </a>
+
+                <a class="contact-card-item" href="https://www.linkedin.com/in/nindia-tri-anggraini/" target="_blank" rel="noopener">
+                    <div class="contact-card-icon"><i class="fab fa-linkedin-in"></i></div>
+                    <div class="contact-card-text">
+                        <span>Profil Profesional</span>
+                        <h4>linkedin.com/in/nindia-tri-anggraini</h4>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Right: Quick Interactive Message Box -->
+            <div class="quick-message-box" data-aos="fade-left" data-aos-duration="900">
+                <h3>Kirim Pesan Singkat</h3>
+                <p>Ketik pesan Anda di bawah ini untuk langsung terhubung ke WhatsApp saya dengan format yang rapi.</p>
+
+                <form id="quickContactForm" onsubmit="sendToWhatsApp(event)">
+                    <div class="form-group">
+                        <label for="senderName"><i class="fas fa-user"></i> Nama Anda</label>
+                        <input type="text" id="senderName" placeholder="Contoh: Budi Santoso" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="senderMessage"><i class="fas fa-comment-dots"></i> Pesan / Penawaran Proyek</label>
+                        <textarea id="senderMessage" rows="4" placeholder="Tuliskan pesan atau topik yang ingin Anda diskusikan..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">
+                        <i class="fab fa-whatsapp"></i> Kirim Pesan via WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-brand">Nindia<span style="color: var(--secondary);">.</span></div>
+            <p class="footer-desc">
+                Mahasiswa D4 Teknik Informatika, Politeknik Negeri Jember. Bersemangat menciptakan solusi teknologi melalui rekayasa web, mobile, dan pengalaman antarmuka yang memikat.
+            </p>
+            <div class="footer-nav">
+                <a href="#main">Beranda</a>
+                <a href="#about">Tentang</a>
+                <a href="#education">Pendidikan</a>
+                <a href="#skills">Keterampilan</a>
+                <a href="#work">Pengalaman</a>
+                <a href="#certificates">Sertifikat</a>
+                <a href="#contact">Kontak</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 <strong>Nindia Tri Anggraini</strong>. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="https://wa.me/6281285357667" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/nindia-tri-anggraini/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:nindiatri87@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== MODAL DETAIL & DOKUMENTASI PROYEK ==================== -->
+    <div class="project-modal" id="projectModal" onclick="closeProjectModal(event)">
+        <div class="project-modal-container" onclick="event.stopPropagation()">
+            <div class="project-modal-header">
+                <div>
+                    <span class="project-modal-tag" id="modalTag">Kategori</span>
+                    <h2 class="project-modal-title" id="modalTitle">Judul Proyek</h2>
+                    <p class="project-modal-meta" id="modalMeta">Role & Tahun</p>
+                </div>
+                <button class="project-modal-close" type="button" aria-label="Tutup Detail" onclick="closeProjectModalDirect()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="project-modal-body">
+                <div class="project-modal-desc-box">
+                    <h4><i class="fas fa-info-circle"></i> Ringkasan Proyek</h4>
+                    <p id="modalDesc">Deskripsi proyek akan dimuat di sini...</p>
+                </div>
+                
+                <div class="project-modal-tags" id="modalTags">
+                    <!-- Tags dinamis -->
+                </div>
+
+                <!-- CAROUSEL SLIDER DOKUMENTASI DENGAN TOMBOL NAVIGASI KIRI-KANAN -->
+                <div class="modal-carousel-stage" id="modalCarouselStage">
+                    <button class="modal-carousel-nav-btn prev" type="button" aria-label="Foto Sebelumnya" onclick="navigateModalCarousel(-1)">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="modal-carousel-viewport" id="carouselViewport" onclick="openLightboxFromCarousel()">
+                        <img id="carouselMainImg" src="" alt="Pratinjau Utama">
+                        <div class="modal-carousel-hint">
+                            <i class="fas fa-search-plus"></i> Klik untuk Layar Penuh
+                        </div>
+                    </div>
+                    <button class="modal-carousel-nav-btn next" type="button" aria-label="Foto Selanjutnya" onclick="navigateModalCarousel(1)">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <div class="modal-carousel-meta">
+                        <span class="modal-carousel-caption" id="carouselCaption">Keterangan Foto</span>
+                        <span class="modal-carousel-counter" id="carouselCounter">1 / 1</span>
+                    </div>
+                </div>
+
+                <div class="project-modal-gallery-header">
+                    <div>
+                        <h4><i class="fas fa-th-large"></i> Semua Foto Dokumentasi</h4>
+                        <span class="gallery-hint">Klik foto di bawah untuk langsung beralih</span>
+                    </div>
+                    <span class="gallery-count-badge" id="modalPhotoCount">0 Foto</span>
+                </div>
+
+                <div class="project-modal-gallery" id="modalGallery">
+                    <!-- Item galeri foto dinamis -->
+                </div>
+            </div>
+            <div class="project-modal-footer">
+                <div id="modalExternalLink">
+                    <!-- Tombol link eksternal dinamis -->
+                </div>
+                <button type="button" class="btn btn-secondary" onclick="closeProjectModalDirect()">
+                    <i class="fas fa-times"></i> Tutup
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== LIGHTBOX MODAL DENGAN NAVIGASI KIRI-KANAN ==================== -->
+    <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+        <button class="lightbox-nav-btn prev" id="lightboxPrev" type="button" aria-label="Foto Sebelumnya" onclick="navigateLightbox(-1); event.stopPropagation();">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="lightbox-content" onclick="event.stopPropagation()">
+            <button class="lightbox-close" type="button" aria-label="Tutup" onclick="closeLightboxDirect()">
+                <i class="fas fa-times"></i>
+            </button>
+            <img id="lightboxImg" src="" alt="Pratinjau Gambar">
+            <div class="lightbox-meta">
+                <span class="lightbox-caption" id="lightboxCaption"></span>
+                <span class="lightbox-counter" id="lightboxCounter">1 / 1</span>
+            </div>
+        </div>
+        <button class="lightbox-nav-btn next" id="lightboxNext" type="button" aria-label="Foto Selanjutnya" onclick="navigateLightbox(1); event.stopPropagation();">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+
+    <!-- ==================== SCROLL TO TOP BUTTON ==================== -->
+    <button class="scroll-top-btn" id="scrollTopBtn" type="button" aria-label="Kembali ke atas" onclick="scrollToTop()">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 40,
+            duration: 800,
+            once: true
+        });
+
+        // 1. Data Dokumentasi Proyek
+        const projectsData = {
+            lotus: {
+                tag: "Mobile App · Administrasi",
+                title: "LOTUS – Aplikasi Internal SMPN 1 Loceret",
+                role: "Web & Mobile Developer · 2026",
+                desc: "LOTUS adalah aplikasi mobile administrasi sekolah terintegrasi yang dibangun untuk mempermudah tata kelola internal guru dan staf di SMP Negeri 1 Loceret. Fitur mencakup digitalisasi arsip surat, sistem perizinan guru, pencatatan rekap nilai, presensi terintegrasi, serta pemantauan jadwal piket harian.",
+                tags: ["Coming Soon", "Flutter", "Mobile App", "Admin Panel", "Digital Archive", "Presensi & Nilai", "SMPN 1 Loceret"],
+                link: "https://pameran-jti.polije.ac.id/product/ID-LOTUS/nama-produk",
+                linkText: "Lihat di Pameran JTI",
+                assetss: [
+                    { src: "assets/Lotus1.jpeg", caption: "LOTUS - Dokumentasi Tampilan Aplikasi 1" },
+                    { src: "assets/Lotus2.jpeg", caption: "LOTUS - Dokumentasi Tampilan Aplikasi 2" },
+                    { src: "assets/Lotus3.jpeg", caption: "LOTUS - Dokumentasi Tampilan Aplikasi 3" },
+                    { src: "assets/Lotus4.jpeg", caption: "LOTUS - Dokumentasi Tampilan Aplikasi 4" },
+                    { src: "assets/Lotus5.jpeg", caption: "LOTUS - Dokumentasi Tampilan Aplikasi 5" },
+                    { src: "assets/Lotus6.jpeg", caption: "LOTUS - Dokumentasi Tampilan Aplikasi 6" }
+                ]
+            },
+            dechabooth: {
+                tag: "Mobile App · Pemesanan F&B",
+                title: "Dechabooth – Platform Pemesanan Mobile",
+                role: "Mobile Developer · 2026",
+                desc: "Platform pemesanan kuliner cepat saji secara mobile yang menghubungkan pelanggan dengan operasional gerai secara real-time. Dilengkapi fitur penyesuaian menu, pembayaran instan QRIS, pelacakan proses pesanan secara transparan, serta panel admin pengelola stok.",
+                tags: ["Flutter", "QRIS Payment", "Real-Time Order", "Food Tech", "Admin Dashboard", "UI/UX Mobile"],
+                link: "https://pameran-jti.polije.ac.id/product/623/dechabooth-aplication",
+                linkText: "Lihat di Pameran JTI",
+                assetss: [
+                    { src: "assets/Dechabooth 1.jpeg", caption: "Dechabooth - Dokumentasi Antarmuka Pemesanan 1" },
+                    { src: "assets/Dechabooth 2.jpeg", caption: "Dechabooth - Dokumentasi Antarmuka Pemesanan 2" }
+                ]
+            },
+            "dapur-pak-ndut": {
+                tag: "Web UMKM · E-Commerce",
+                title: "Website Dapur Kuliner Pak Ndut",
+                role: "Web Developer · 2025 - 2026",
+                desc: "Website e-commerce dan profil usaha untuk digitalisasi UMKM lokal Dapur Kuliner Pak Ndut. Memiliki keranjang belanja interaktif, kalkulator transaksi instan, sistem lacak status pemesanan, serta dashboard manajemen produk untuk pemilik usaha.",
+                tags: ["Web UMKM", "E-Commerce", "Keranjang Belanja", "Order Tracking", "MySQL", "Admin Dashboard"],
+                link: "https://pameran-jti.polije.ac.id/product/411/dapur-kuliner-pak-ndut",
+                linkText: "Lihat di Pameran JTI",
+                assetss: [
+                    { src: "assets/Dapur Kuliner Pak Ndut 1.jpeg", caption: "Dapur Kuliner Pak Ndut - Dokumentasi 1" },
+                    { src: "assets/Dapur Kuliner Pak Ndut 2.jpeg", caption: "Dapur Kuliner Pak Ndut - Dokumentasi 2" },
+                    { src: "assets/Dapur Kuliner Pak Ndut 3.jpeg", caption: "Dapur Kuliner Pak Ndut - Dokumentasi 3" },
+                    { src: "assets/Dapur Kuliner Pak Ndut 4.jpeg", caption: "Dapur Kuliner Pak Ndut - Dokumentasi 4" },
+                    { src: "assets/Dapur Kuliner Pak Ndut 5.jpeg", caption: "Dapur Kuliner Pak Ndut - Dokumentasi 5" },
+                    { src: "assets/Dapur Kuliner Pak Ndut 6.jpeg", caption: "Dapur Kuliner Pak Ndut - Dokumentasi 6" }
+                ]
+            },
+            perpustakaan: {
+                tag: "Web Application · OOP",
+                title: "Aplikasi Perpustakaan Digital",
+                role: "Web Developer · UKK RPL 2025",
+                desc: "Sistem informasi sirkulasi perpustakaan berbasis web yang dikembangkan menggunakan arsitektur Pemrograman Berorientasi Objek (OOP) untuk pemenuhan Uji Kompetensi Keahlian (UKK) Rekayasa Perangkat Lunak 2025. Mengatur hak akses tiga peran (Administrator, Petugas, Peminjam), sirkulasi peminjaman/pengembalian buku, denda keterlambatan, dan pencarian katalog digital.",
+                tags: ["PHP OOP", "Multi-Role Auth", "UKK RPL 2025", "MySQL", "Sirkulasi Buku", "Web System"],
+                link: null,
+                assetss: [
+                    { src: "assets/ukk 1.jpeg", caption: "Perpustakaan Digital - Dokumentasi UKK 1" },
+                    { src: "assets/ukk 2.jpeg", caption: "Perpustakaan Digital - Dokumentasi UKK 2" },
+                    { src: "assets/ukk 3.jpeg", caption: "Perpustakaan Digital - Dokumentasi UKK 3" }
+                ]
+            },
+            gim: {
+                tag: "Game Development · Edukasi",
+                title: "Environmental Hygiene Game",
+                role: "Game Developer · Clevio Coder Camp · 2023",
+                desc: "Game edukasi interaktif tentang pentingnya pelestarian kebersihan lingkungan dan pemilahan sampah organik serta anorganik. Dirancang dengan pendekatan Design Thinking untuk menjamin pengalaman bermain yang mendidik, menyenangkan, dan relevan bagi generasi muda.",
+                tags: ["Game Dev", "Design Thinking", "Edukasi Lingkungan", "Clevio Coder Camp", "Gamification"],
+                link: null,
+                assetss: [
+                    { src: "assets/GIM 0.jpeg", caption: "Environmental Hygiene Game - Dokumentasi 0" },
+                    { src: "assets/GIM 1.jpeg", caption: "Environmental Hygiene Game - Dokumentasi 1" },
+                    { src: "assets/GIM 2.jpeg", caption: "Environmental Hygiene Game - Dokumentasi 2" },
+                    { src: "assets/GIM 3.jpeg", caption: "Environmental Hygiene Game - Dokumentasi 3" },
+                    { src: "assets/GIM 4.jpeg", caption: "Environmental Hygiene Game - Dokumentasi 4" },
+                    { src: "assets/GIM 5.jpeg", caption: "Environmental Hygiene Game - Dokumentasi 5" },
+                    { src: "assets/GIM 6.jpeg", caption: "Environmental Hygiene Game - Dokumentasi 6" },
+                    { src: "assets/GIM 7.jpeg", caption: "Environmental Hygiene Game - Dokumentasi 7" }
+                ]
+            }
+        };
+
+        // Data Sertifikat untuk Lightbox Navigasi Kiri-Kanan (Urut dari Terbaru)
+        const certificateassetss = [
+            { src: "assets/Juara 2 Vid.jpg", caption: "Juara 2 Lomba Videography · EPIM-TI Politeknik Negeri Jember (Agustus 2026)" },
+            { src: "assets/Juara 3 Poste.jpg", caption: "Juara 3 Lomba Poster Dechabooth · Java Tech Exhibition 4.0 (Juni 2026)" },
+            { src: "assets/Juara 1 Poster.jpg", caption: "Juara 1 Lomba Poster Dapur Kuliner Pak Ndut · Java Tech Exhibition 3.0 (Februari 2026)" },
+            { src: "assets/sertiv_lkmm.jpg", caption: "Sertifikat Latihan Keterampilan Manajemen Mahasiswa (LKMM) · HMJ TI Polije (Oktober 2025)" },
+            { src: "assets/sertiv_bnsp.jpg", caption: "Sertifikat Kompetensi Pemrogram Junior (Junior Coder) · BNSP (April 2025)" },
+            { src: "assets/sertiv_ukk.jpg", caption: "Uji Kompetensi Keahlian RPL (Predikat Kompeten) · SMKN 1 Gunungputri (April 2025)" },
+            { src: "assets/sertiv_pkl1.jpg", caption: "Praktik Kerja Lapangan (Nilai 91) · PT Natamas Plast (Januari 2025)" },
+            { src: "assets/sertiv_pkl.jpg", caption: "Praktik Kerja Lapangan (Predikat Baik) · PT Natamas Plast (Januari 2025)" },
+            { src: "assets/sertiv_gim.jpg", caption: "Game Development Training Completion · Clevio Coder Camp (Juni 2023)" }
+        ];
+
+        // 2. Fungsi Modal Detail Proyek & Carousel
+        const projectModal = document.getElementById("projectModal");
+        const modalTag = document.getElementById("modalTag");
+        const modalTitle = document.getElementById("modalTitle");
+        const modalMeta = document.getElementById("modalMeta");
+        const modalDesc = document.getElementById("modalDesc");
+        const modalTags = document.getElementById("modalTags");
+        const modalPhotoCount = document.getElementById("modalPhotoCount");
+        const modalGallery = document.getElementById("modalGallery");
+        const modalExternalLink = document.getElementById("modalExternalLink");
+
+        const carouselMainImg = document.getElementById("carouselMainImg");
+        const carouselCaption = document.getElementById("carouselCaption");
+        const carouselCounter = document.getElementById("carouselCounter");
+
+        let currentProjectKey = null;
+        let currentCarouselIndex = 0;
+
+        function updateModalCarousel() {
+            const data = projectsData[currentProjectKey];
+            if (!data || !data.assetss.length) return;
+
+            const item = data.assetss[currentCarouselIndex];
+            carouselMainImg.src = item.src;
+            carouselMainImg.alt = item.caption;
+            carouselCaption.textContent = item.caption;
+            carouselCounter.textContent = `${currentCarouselIndex + 1} / ${data.assetss.length}`;
+
+            // Highlight thumbnail aktif
+            const thumbs = modalGallery.querySelectorAll(".modal-gallery-item");
+            thumbs.forEach((thumb, idx) => {
+                thumb.classList.toggle("active", idx === currentCarouselIndex);
+            });
+        }
+
+        function navigateModalCarousel(dir) {
+            const data = projectsData[currentProjectKey];
+            if (!data || !data.assetss.length) return;
+
+            const total = data.assetss.length;
+            currentCarouselIndex = (currentCarouselIndex + dir + total) % total;
+            updateModalCarousel();
+        }
+
+        function setModalCarouselIndex(idx) {
+            currentCarouselIndex = idx;
+            updateModalCarousel();
+        }
+
+        function openLightboxFromCarousel() {
+            const data = projectsData[currentProjectKey];
+            if (!data) return;
+            openLightboxGroup(data.assetss, currentCarouselIndex);
+        }
+
+        function openProjectModal(key) {
+            const data = projectsData[key];
+            if (!data) return;
+
+            currentProjectKey = key;
+            currentCarouselIndex = 0;
+
+            modalTag.textContent = data.tag;
+            modalTitle.textContent = data.title;
+            modalMeta.textContent = data.role;
+            modalDesc.textContent = data.desc;
+
+            // Render tags
+            modalTags.innerHTML = data.tags.map(t => `<span class="tag-badge">${t}</span>`).join("");
+
+            // Render photo count
+            modalPhotoCount.textContent = `${data.assetss.length} Foto Dokumentasi`;
+
+            // Render gallery items
+            modalGallery.innerHTML = data.assetss.map((img, idx) => `
+                <div class="modal-gallery-item ${idx === 0 ? 'active' : ''}" onclick="setModalCarouselIndex(${idx})">
+                    <img src="${img.src}" alt="${img.caption}" loading="lazy">
+                    <div class="modal-gallery-overlay">
+                        <span class="modal-gallery-num">${idx + 1} / ${data.assetss.length}</span>
+                        <span class="modal-gallery-zoom"><i class="fas fa-eye"></i></span>
+                    </div>
+                </div>
+            `).join("");
+
+            // Render external link
+            if (data.link) {
+                modalExternalLink.innerHTML = `
+                    <a href="${data.link}" target="_blank" rel="noopener" class="btn btn-primary" style="padding: 10px 22px; font-size: 0.88rem;">
+                        <i class="fas fa-external-link-alt"></i> ${data.linkText || "Kunjungi Pameran JTI"}
+                    </a>
+                `;
+            } else {
+                modalExternalLink.innerHTML = "";
+            }
+
+            // Inisialisasi carousel gambar pertama
+            updateModalCarousel();
+
+            projectModal.classList.add("active");
+            document.body.style.overflow = "hidden";
+        }
+
+        function closeProjectModalDirect() {
+            projectModal.classList.remove("active");
+            if (!lightbox.classList.contains("active")) {
+                document.body.style.overflow = "";
+            }
+        }
+
+        function closeProjectModal(e) {
+            if (e.target === projectModal) {
+                closeProjectModalDirect();
+            }
+        }
+
+        // 3. Lightbox Modal dengan Navigasi Kiri-Kanan
+        const lightbox = document.getElementById("lightbox");
+        const lightboxImg = document.getElementById("lightboxImg");
+        const lightboxCaption = document.getElementById("lightboxCaption");
+        const lightboxCounter = document.getElementById("lightboxCounter");
+        const lightboxPrev = document.getElementById("lightboxPrev");
+        const lightboxNext = document.getElementById("lightboxNext");
+
+        let currentLightboxList = [];
+        let currentLightboxIndex = 0;
+
+        function renderLightbox() {
+            if (!currentLightboxList.length) return;
+
+            const item = currentLightboxList[currentLightboxIndex];
+            lightboxImg.src = item.src;
+            lightboxImg.alt = item.caption || "Pratinjau Gambar";
+            lightboxCaption.textContent = item.caption || "";
+
+            const hasMultiple = currentLightboxList.length > 1;
+            lightboxCounter.textContent = `${currentLightboxIndex + 1} / ${currentLightboxList.length}`;
+            lightboxCounter.style.display = hasMultiple ? "inline-block" : "none";
+            lightboxPrev.style.display = hasMultiple ? "flex" : "none";
+            lightboxNext.style.display = hasMultiple ? "flex" : "none";
+        }
+
+        function openLightboxGroup(items, startIndex = 0) {
+            currentLightboxList = items;
+            currentLightboxIndex = startIndex;
+            renderLightbox();
+            lightbox.classList.add("active");
+            document.body.style.overflow = "hidden";
+        }
+
+        function openLightbox(src, caption) {
+            // Cek apakah gambar merupakan bagian dari sertifikat
+            const certIndex = certificateassetss.findIndex(c => c.src === src);
+            if (certIndex !== -1) {
+                openLightboxGroup(certificateassetss, certIndex);
+            } else {
+                openLightboxGroup([{ src, caption }], 0);
+            }
+        }
+
+        function navigateLightbox(dir) {
+            if (currentLightboxList.length <= 1) return;
+
+            const total = currentLightboxList.length;
+            currentLightboxIndex = (currentLightboxIndex + dir + total) % total;
+            renderLightbox();
+
+            // Jika dibuka dari modal proyek, sinkronkan carousel modalnya
+            if (projectModal.classList.contains("active") && currentProjectKey) {
+                setModalCarouselIndex(currentLightboxIndex);
+            }
+        }
+
+        function closeLightboxDirect() {
+            lightbox.classList.remove("active");
+            if (!projectModal.classList.contains("active")) {
+                document.body.style.overflow = "";
+            }
+        }
+
+        function closeLightbox(e) {
+            if (e.target === lightbox) {
+                closeLightboxDirect();
+            }
+        }
+
+        // Navigasi Keyboard: ESC, Panah Kiri, Panah Kanan
+        document.addEventListener("keydown", (e) => {
+            if (e.key === "Escape") {
+                if (lightbox.classList.contains("active")) {
+                    closeLightboxDirect();
+                } else if (projectModal.classList.contains("active")) {
+                    closeProjectModalDirect();
+                } else if (navigation.classList.contains("active")) {
+                    setMenu(false);
+                }
+            } else if (e.key === "ArrowRight") {
+                if (lightbox.classList.contains("active")) {
+                    navigateLightbox(1);
+                } else if (projectModal.classList.contains("active")) {
+                    navigateModalCarousel(1);
+                }
+            } else if (e.key === "ArrowLeft") {
+                if (lightbox.classList.contains("active")) {
+                    navigateLightbox(-1);
+                } else if (projectModal.classList.contains("active")) {
+                    navigateModalCarousel(-1);
+                }
+            }
+        });
+
+        // Dukungan Touch Swipe untuk Layar HP / Tablet
+        function enableSwipe(elem, onLeft, onRight) {
+            let startX = 0;
+            let startY = 0;
+            elem.addEventListener("touchstart", (e) => {
+                startX = e.changedTouches[0].screenX;
+                startY = e.changedTouches[0].screenY;
+            }, { passive: true });
+            elem.addEventListener("touchend", (e) => {
+                const diffX = e.changedTouches[0].screenX - startX;
+                const diffY = e.changedTouches[0].screenY - startY;
+                if (Math.abs(diffX) > 40 && Math.abs(diffX) > Math.abs(diffY)) {
+                    if (diffX < 0) onLeft();
+                    else onRight();
+                }
+            }, { passive: true });
+        }
+
+        const carouselStage = document.getElementById("modalCarouselStage");
+        if (carouselStage) {
+            enableSwipe(carouselStage, () => navigateModalCarousel(1), () => navigateModalCarousel(-1));
+        }
+        if (lightbox) {
+            enableSwipe(lightbox, () => navigateLightbox(1), () => navigateLightbox(-1));
+        }
+
+        // 4. Navbar Sticky & Scroll Progress
+        const header = document.getElementById("header");
+        const scrollProgress = document.getElementById("scrollProgress");
+        const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+        window.addEventListener("scroll", () => {
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+            
+            scrollProgress.style.width = scrollPercent + "%";
+            header.classList.toggle("sticky", scrollTop > 30);
+            scrollTopBtn.classList.toggle("visible", scrollTop > 400);
+        }, { passive: true });
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+
+        // 5. Mobile Menu Navigation
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+        const navLinks = document.querySelectorAll(".navigation a");
+        const overlay = document.querySelector(".nav-overlay");
+
+        function setMenu(open) {
+            menuBtn.classList.toggle("active", open);
+            navigation.classList.toggle("active", open);
+            overlay.classList.toggle("active", open);
+            menuBtn.setAttribute("aria-expanded", open);
+            menuBtn.setAttribute("aria-label", open ? "Tutup menu" : "Buka menu");
+            document.body.style.overflow = open ? "hidden" : "";
+        }
+
+        menuBtn.addEventListener("click", () => setMenu(!navigation.classList.contains("active")));
+        overlay.addEventListener("click", () => setMenu(false));
+        navLinks.forEach((link) => link.addEventListener("click", () => setMenu(false)));
+        window.addEventListener("resize", () => { if (window.innerWidth > 1040) setMenu(false); });
+
+        // 6. Highlight Active Menu on Scroll
+        const sections = [...navLinks].map((l) => document.querySelector(l.getAttribute("href"))).filter(Boolean);
+        function highlightMenu() {
+            const pos = window.scrollY + 140;
+            let current = sections[0];
+            sections.forEach((s) => {
+                if (s.offsetTop <= pos) current = s;
+            });
+            if (window.innerHeight + window.scrollY >= document.body.scrollHeight - 10) {
+                current = sections[sections.length - 1];
+            }
+            navLinks.forEach((l) =>
+                l.classList.toggle("active", current && l.getAttribute("href") === "#" + current.id)
+            );
+        }
+        window.addEventListener("scroll", highlightMenu, { passive: true });
+        highlightMenu();
+
+        // 7. Certificate Filter Tabs
+        const filterBtns = document.querySelectorAll(".filter-btn");
+        const certCards = document.querySelectorAll(".cert-card");
+
+        filterBtns.forEach((btn) => {
+            btn.addEventListener("click", () => {
+                filterBtns.forEach((b) => b.classList.remove("active"));
+                btn.classList.add("active");
+
+                const filter = btn.getAttribute("data-filter");
+                certCards.forEach((card) => {
+                    const category = card.getAttribute("data-category");
+                    if (filter === "all" || category === filter) {
+                        card.style.display = "flex";
+                    } else {
+                        card.style.display = "none";
+                    }
+                });
+            });
+        });
+
+        // 8. Quick WhatsApp Message Handler
+        function sendToWhatsApp(e) {
+            e.preventDefault();
+            const name = document.getElementById("senderName").value.trim();
+            const message = document.getElementById("senderMessage").value.trim();
+            const phoneNumber = "6281285357667";
+
+            const formattedText = `Halo Nindia, perkenalkan saya *${name}*.\n\n${message}`;
+            const waUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(formattedText)}`;
+            
+            window.open(waUrl, "_blank", "noopener,noreferrer");
+        }
+    </script>
+</body>
+</html>
